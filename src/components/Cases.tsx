@@ -7,9 +7,9 @@ export default async function Cases() {
   const cases = await getCases();
 
   return (
-    <section id="projects" className="lg:py-32 py-16 lg:pb-10">
+    <section id="projects">
       <div className="px-4 lg:px-20 flex justify-between items-center ">
-        <h2 className="text-primary-50 text-display-2 leading-none font-display font-semibold">
+        <h2 className="text-primary-50 text-display-4 lg:text-display-2 leading-none font-display font-semibold">
           Projecten
         </h2>
       </div>

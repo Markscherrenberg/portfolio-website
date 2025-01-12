@@ -47,17 +47,17 @@ export interface IContactItem {
 export default function Page() {
   return (
     <>
-      <section className="px-4 pt-24 lg:px-20 pb-52 lg:pt-28">
-        <div className="flex flex-col lg:flex-row justify-between gap-20 lg:gap-10">
+      <section className="px-4 pt-10 lg:px-20 pb-16 lg:pt-28">
+        <div className="flex flex-col lg:flex-row justify-between gap-0 lg:gap-10">
           <div className="lg:max-w-lg lg:pr-10">
             <header className="font-medium text-accent-300 leading-none">
               Neem contact op
             </header>
-            <h1 className="text-[40px] lg:text-[56px] font-semibold mt-5 leading-[110%] font-display mb-4">
+            <h1 className="text-display-4 lg:text-[56px] font-semibold mt-5 leading-[110%] font-display mb-4">
               Ik help je graag
             </h1>
             <p className="text-lg lg:text-xl mt-6 mb-6 text-gray-300">
-              Neem vrijblijvend contact  op voor al je vragen of opmerkingen.
+              Neem vrijblijvend contact op voor al je vragen of opmerkingen.
             </p>
 
             <div className="space-y-4 mt-7">

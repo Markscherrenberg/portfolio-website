@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     default: "Mark // Full-stack Developer",
     template: "%s - Mark // Full-stack Developer",
   },
-  description: `Hi, ik ben Mark een Full-stack developer. +10 jaar ervaring in het ontwikkelen van webapplicaties en mobiele apps. Zowel front-end als back-end, en een oog voor design.`,
+  description: `Hi, ik ben Mark een Full-stack developer. Met meer dan 10 jaar ervaring in softwareontwikkeling, ben ik gespecialiseerd in het bouwen van webapplicaties en mobiele apps. Van start tot finish.`,
 };
 
 export default function RootLayout({

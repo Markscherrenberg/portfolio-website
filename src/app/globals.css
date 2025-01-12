@@ -28,6 +28,10 @@ body, html {
   background: radial-gradient(50% 50% at 50% 50%, rgba(18, 18, 18, 0.00) 0%, #000000 125%);
 }
 
+.bg-radial-mobile {
+  background: radial-gradient(50% 50% at 50% 50%, rgba(18, 18, 18, 0.00) 0%, #000000 125%);
+}
+
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }

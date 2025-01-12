@@ -106,18 +106,18 @@ export default function Experience({
             >
               <div className="flex items-center space-x-4">
                 <CodeBracketIcon className={"w-6 h-6 text-accent"} />
-                <span className="font-medium text-lg flex items-center space-x-2">
+                <span className="font-medium text-base lg:text-lg flex items-center space-x-2">
                   <span>Full-Stack Developer</span>
                   <span>-</span>
                   <span className="text-sm">{item.role}</span>
                 </span>
               </div>
               <div>
-                <h3 className="text-primary-50 mt-4 mb-0 text-2xl font-display font-semibold text-left select-none">
+                <h3 className="text-primary-50 mt-4 mb-0 text-display-6 lg:text-2xl font-display font-semibold text-left select-none">
                   {item.title}
                 </h3>
               </div>
-              <p className="mb-2 text-primary-300 text-xl font-medium mt-1 leading-none select-none flex items-center space-x-2">
+              <p className="mb-2 text-primary-300 text-base lg:text-xl font-medium mt-1 leading-none select-none flex items-center space-x-2">
                 <CalendarDateRangeIcon className="w-6 h-6 text-accent" />{" "}
                 <span>
                   {Math.floor(item.num / 12)} jaar{" - "}

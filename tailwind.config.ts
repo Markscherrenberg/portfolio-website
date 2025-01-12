@@ -33,6 +33,9 @@ const config: Config = {
         "display-1": "5.5rem",
         "display-2": "2.5rem",
         "display-3": "4rem",
+        "display-4": "2rem",
+        "display-5": "1.5rem",
+        "display-6": "1.25rem",
       },
       height: {
         banner: "calc(100vh - 88px - 200px)",

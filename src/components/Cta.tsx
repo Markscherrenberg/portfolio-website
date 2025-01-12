@@ -22,8 +22,8 @@ export default function Cta() {
 
   return (
     <section className="bg-grid py-24 lg:py-32 px-4 lg:px-20 lg:flex lg:flex-col lg:items-center justify-center z-0 relative overflow-hidden">
-      <div className="bg-radial w-full h-full absolute top-0 left-0 z-[-1]" />
-      <div className="bg-primary-950/80 blur-2xl w-[919px] h-[603px] rounded-[919px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-[-1]" />
+      <div className="bg-radial-mobile lg:bg-radial w-full h-full absolute top-0 left-0 z-[-1]" />
+      <div className="bg-primary-950/80 blur-2xl w-[400px] h-[400px] lg:w-[919px] lg:h-[603px] rounded-[919px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-[-1]" />
 
       <div className="lg:flex lg:space-x-14 justify-center">
         <div className="lg:mb-0 mb-10 flex lg:justify-end items-center">
@@ -41,10 +41,10 @@ export default function Cta() {
           </div>
         </div>
         <div>
-          <header className="font-display text-primary-50 font-semibold text-4xl leading-[120%] lg:leading-[1] lg:mt-14">
+          <header className="text-display-4 lg:font-display text-primary-50 font-semibold text-4xl leading-[120%] lg:leading-[1] lg:mt-14">
             Benieuwd hoe ik je kan helpen?
           </header>
-          <p className="text-lg lg:text-xl text-primary-300 max-w-2xl mt-3 mb-6 py-4 lg:py-0">
+          <p className="text-base lg:text-xl text-primary-300 max-w-2xl mt-3 mb-6 py-4 lg:py-0">
             Ontdek hoe ik jouw digitale visie tot leven kan brengen. Neem
             vandaag nog contact op voor een vrijblijvend adviesgesprek. Ik sta
             klaar om al je vragen te beantwoorden.
